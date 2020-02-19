@@ -1,0 +1,9 @@
+https://www.pygame.org/wiki/FrequentlyAskedQuestions
+
+1 提示 SyntaxError: Missing parentheses in call to 'print' 报错了 
+  发现是因为python2.X版本与python3.X版本输出方式不同造成, 要带上括号python()，在2.X中可以直接输出 
+  
+2 ModuleNotFoundError: No module named 'Queue'的问题
+  Python3中要这样引入：import queue
+
+
