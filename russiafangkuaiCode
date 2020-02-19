@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Feb 19 2020
-
-@author: Alan
-"""
 
 import pygame,sys,random
 from pygame.locals import *
@@ -356,6 +351,9 @@ while True:
 
 
     draw_screen()
+
+
+
 
 
 
