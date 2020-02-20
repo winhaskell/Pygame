@@ -6,4 +6,16 @@ https://www.pygame.org/wiki/FrequentlyAskedQuestions
 2 ModuleNotFoundError: No module named 'Queue'的问题
   Python3中要这样引入：import queue
 
-
+3 在python3.x版本中，如何使用：urllib2.urlopen()？
+  python 3.X版本不需要安装urllib2包，urllib和urllib2包集合成在一个包了
+  import urllib.request
+  resp=urllib.request.urlopen("http://www.abcde.com")
+  
+  
+  
+  
+  
+  
+  
+  
+  
