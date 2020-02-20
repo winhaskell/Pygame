@@ -1,0 +1,17 @@
+python中pygame游戏打包.exe文件
+
+pyinstaller 
+
+1.安装pyinstaller
+->pip install pyinstaller
+
+2.版本信息
+pyinstaller -v
+
+3.进入打包的文件的路径下
+->pyinstaller -F -w main.py -p game_engine.py -p game_sprite.py
+备注：pyinstaller -F -w 程序入口文件 -p 程序文件 -p 程序文件
+
+4.打包完成后，进入程序文件，将游戏所需要的图片、音乐等文件复制到dist文件下，运行.exe
+
+
